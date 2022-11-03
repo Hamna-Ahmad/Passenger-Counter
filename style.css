@@ -1,0 +1,148 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.hdqwalls.com/download/cityscape-street-photography-ir-3840x2400.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    max-width:50%;
+    margin:auto;
+		transform:translateY(50%);
+    top:50%;
+    background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6))
+    
+}
+
+h1 {
+    font-size:3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top:25px;
+    color:#fff;
+    text-shadow: 
+    0 0 25px #fff;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#fff;
+    text-shadow: 
+    0 0 25px #fff;
+}
+
+button {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    margin-bottom: 25px;
+    border-radius: 2rem;
+    background:transparent;
+    
+}
+
+p{
+    color:#fff;
+    text-shadow: 
+    0 0 25px #fff;
+    padding-bottom:25px;
+}
+
+#increment-btn {
+    text-shadow:
+        0 0 7px #fff,
+        0 0 92px #13ecfe,
+        0 0 102px #13ecfe,
+        0 0 151px #13ecfe;
+     box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #13ecfe,
+            0 0 0.8rem #13ecfe,
+            0 0 2.8rem #13ecfe,
+            inset 0 0 1.3rem #13ecfe; 
+}
+
+#increment-btn:hover {
+    animation: pulsateBlue 1.5s infinite alternate; 
+}
+
+@keyframes pulsateBlue {
+    
+  100% {
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #13ecfe,
+      0 0 80px #13ecfe,
+      0 0 90px #13ecfe,
+      0 0 100px #13ecfe,
+      0 0 150px #13ecfe;
+  }
+  
+  0% {
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #13ecfe,
+    0 0 45px #13ecfe,
+    0 0 55px #13ecfe,
+    0 0 70px #13ecfe,
+    0 0 80px #13ecfe;
+    }
+}
+#save-btn {
+    text-shadow:
+        0 0 7px #fff,
+        0 0 92px #fe13b9,
+        0 0 102px #fe13b9,
+        0 0 151px #fe13b9;
+     box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe13b9,
+            0 0 0.8rem #fe13b9,
+            0 0 2.8rem #fe13b9,
+            inset 0 0 1.3rem #fe13b9; 
+}   
+
+#save-btn:hover {
+    animation: pulsatePink 1.5s infinite alternate; 
+}
+
+@keyframes pulsatePink {
+    
+  100% {
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #fe13b9,
+      0 0 80px #fe13b9,
+      0 0 90px #fe13b9,
+      0 0 100px #fe13b9,
+      0 0 150px #fe13b9;
+  }
+  
+  0% {
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #fe13b9,
+    0 0 45px #fe13b9,
+    0 0 55px #fe13b9,
+    0 0 70px #fe13b9,
+    0 0 80px #fe13b9;
+    }
+}
